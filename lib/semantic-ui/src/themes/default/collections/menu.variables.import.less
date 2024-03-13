@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.3.3
+  Semantic UI v2.4.1
 */
 /*******************************
              Menu
@@ -325,7 +325,7 @@
 @tabularVerticalBackground: none @tabularBackgroundColor;
 
 @tabularFluidOffset: 1px;
-@tabularFluidWidth: ~"calc(100% + "(@tabularFluidOffset * 2)~")";
+@tabularFluidWidth: calc(100% + (@tabularFluidOffset * 2));
 
 @tabularActiveBackground: none @white;
 @tabularActiveColor: @selectedTextColor;
@@ -434,7 +434,7 @@
 @attachedTopOffset: 0px;
 @attachedBottomOffset: 0px;
 @attachedHorizontalOffset: -@borderWidth;
-@attachedWidth: ~"calc(100% + "-@attachedHorizontalOffset * 2~")";
+@attachedWidth: calc(100% - (@attachedHorizontalOffset * 2));
 @attachedBoxShadow: none;
 @attachedBorder: @borderWidth solid @solidBorderColor;
 @attachedBottomBoxShadow:

@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.3.3
+  Semantic UI v2.4.1
 */
 /*!
  * # Semantic UI - Dropdown
@@ -929,6 +929,18 @@ select.ui.dropdown {
 }
 
 
+/*--------------------
+        Clear
+----------------------*/
+
+.ui.dropdown > .clear.dropdown.icon {
+  opacity: @clearableIconOpacity;
+  transition: opacity @defaultDuration @defaultEasing;
+}
+.ui.dropdown > .clear.dropdown.icon:hover {
+  opacity: @clearableIconActiveOpacity;
+}
+
 
 /*--------------------
         Disabled
@@ -1102,7 +1114,7 @@ select.ui.dropdown {
 @media all and (-ms-high-contrast:none) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
-    min-width: ~"calc(100% - "@scrollbarWidth~")";
+    min-width: calc(100% - @scrollbarWidth);
   }
 }
 @media only screen and (max-width : @largestMobileScreen) {

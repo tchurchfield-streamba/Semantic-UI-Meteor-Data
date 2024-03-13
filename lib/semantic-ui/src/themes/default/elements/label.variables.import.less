@@ -1,6 +1,6 @@
 /*
   DO NOT MODIFY - This file has been generated and will be regenerated
-  Semantic UI v2.3.3
+  Semantic UI v2.4.1
 */
 /*******************************
              Label
@@ -134,18 +134,18 @@
 @ribbonShadowColor: rgba(0, 0, 0, 0.15);
 
 @ribbonMargin: 1rem;
-@ribbonOffset: ~"calc("-@ribbonMargin~" - "@ribbonTriangleSize~")";
-@ribbonDistance: ~"calc("@ribbonMargin~" + "@ribbonTriangleSize~")";
-@rightRibbonOffset:  ~"calc(100% + "@ribbonMargin~" + "@ribbonTriangleSize~")";
+@ribbonOffset: calc(-@ribbonMargin - @ribbonTriangleSize);
+@ribbonDistance: calc(@ribbonMargin + @ribbonTriangleSize);
+@rightRibbonOffset:  calc(100% + @ribbonMargin + @ribbonTriangleSize);
 
 @ribbonImageTopDistance: 1rem;
 @ribbonImageMargin: -0.05rem; /* Rounding Offset on Triangle */
-@ribbonImageOffset: ~"calc("-@ribbonImageMargin~" - "@ribbonTriangleSize~")";
-@rightRibbonImageOffset:  ~"calc(100% + "@ribbonImageMargin~" + "@ribbonTriangleSize~")";
+@ribbonImageOffset: calc(-@ribbonImageMargin - @ribbonTriangleSize);
+@rightRibbonImageOffset:  calc(100% + @ribbonImageMargin + @ribbonTriangleSize);
 
 @ribbonTableMargin: @relativeMini; /* Rounding Offset on Triangle */
-@ribbonTableOffset: ~"calc("-@ribbonTableMargin~" - "@ribbonTriangleSize~")";
-@rightRibbonTableOffset:  ~"calc(100% + "@ribbonTableMargin~" + "@ribbonTriangleSize~")";
+@ribbonTableOffset: calc(-@ribbonTableMargin - @ribbonTriangleSize);
+@rightRibbonTableOffset:  calc(100% + @ribbonTableMargin + @ribbonTriangleSize);
 
 
 /* Colors */
